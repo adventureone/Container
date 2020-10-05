@@ -1,90 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <!-- <link href="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.js"></script> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人简历</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .jianli {
+            font-size: 50px;
+            text-align: center;
+            background-color: #99CCFF ;width: 100%;height: 100px;
+          }        
+        
+        .test {
+            background-color: white ;
+            text-align: left;
+        }
+
+        .test input{
+            border-radius: 10px 0 0 10px;width: 200px;height: 30px;
+            border-color:black;
+            border: 1px solid black;
+            outline: none;
+        }
+        .test1 {
+            border-radius: 0 10px 10px 0  ; width: 50px;height: 32px;
+            background-color:#000;
+            text-align: center;
+            line-height: 36px;
+        }
+        .test1 p{
+            line-height: 32px;
+            text-align: center;
+            color: white;
+        }
+        
+        .one {
+            background-color: white;width: 50%;height: 10px;
+            margin-top: 150px;
+            text-align: center;
+            margin-left: 22.5%;       
+        }
+        .two {
+            background-color: white;width: 50%;height: 10px;
+            margin-top: 50px;
+            text-align: center;
+            margin-left: 22.5%;
+        }
+        .three {
+            background-color: white;width: 50%;height: 10px;
+            margin-top: 50px;
+            text-align: center;
+            margin-left: 22.5%;
+        }
+        .four {
+            background-color: white;width: 50%;height: 10px;
+            margin-top: 50px;
+            text-align: center;
+            margin-left: 22.5%;
+        }
+        .five {
+            background-color: white;width: 50%;height: 10px;
+            margin-top: 50px;
+            text-align: left;
+            margin-left: 22.5%;
+        }
+        .six{
+            background-color: white;width: 50%;height: 10px;
+            margin-top: 50px;
+            text-align: center;
+            margin-left: 22.5%;
+        }
+
+    </style>
 </head>
-<style>
-    .form {
-        background-color #FFFFFF;
-    }
-</style>
 
 <body>
-    <table border="1" cellpadding="10%" width="100%" class="form">
-
-        <tr>
-            <th colspan="7">个人简历</th>
-        </tr>
-
-        <tr>
-            <th>性名：</th>
-            <td>哈哈哈</td>
-            <th>性别：</th>
-            <td>男</td>
-            <th>名族：</th>
-            <td>汉</td>
-            <td rowspan="4" width="10">
-                <p><a href="https://wallhaven.cc/w/6kv1kw" target="_self"><img border="0" src="路飞.jpg" width="160" height="160"
-                            title="我是要成为海贼王的男人" /></a>
-                </p>
-            </td>
-        </tr>
-
-        <tr>
-            <th>出生日期：</th>
-            <td>2000.1.1</td>
-            <th>政治面貌：</th>
-            <td>共青团员</td>
-            <th>学历：</th>
-            <td>专科</td>
-        </tr>
-
-        <tr>
-            <th>专业：</th>
-            <td>云计算技术与应用</td>
-            <th>毕业学校：</th>
-            <td>重庆工程职业技术学院</td>
-            <th>邮编：</th>
-            <td>12345</td>
-        </tr>
-
-        <tr>
-            <th>爱好：</th>
-            <td>写代码</td>
-            <th>电话号码：</th>
-            <td><a href="tel:133451567892">133451567892</a></td>
-            <th>邮件：</th>
-            <td><a href="mailto:852161658@qq.com?SubjectS=Hello%20again" target="_top">
-                    852161658@qq.com</a></td>
-        </tr>
-
-        <tr>
-            <th height="160" bgcolor="#FFFFFF" colspan="1">个人特长:</th>
-            <td colspan="6">
-                <ul style="list-style: square">
-                    <li>熟悉Linux常用命令</li>
-                    <li>Java面向对象编程思想</li>
-                    <li>虚拟化桌面搭建</li>
-                    <li>web前端开发</li>
-                </ul>
-            </td>
-        </tr>
-
-        <tr>
-            <th height="160" bgcolor="#FFFFFF">自我评价:</th>
-            <td colspan="6">
-                <ul style="list-style: square">
-                    <li>Good</li>
-                    <li>Great</li>
-                    <li>Amaze</li>
-                    <li>Unbelievable</li>
-                </ul>
-        </tr>
-
-    </table>
+    <div style="background-color:whitesmoke; width: 100%;height: 100px;">
+        <div>
+            <div class="jianli">
+                <p>个人简历</p>
+            </div>
+            
+            <div class="test" style="position: absolute;left: 43.9%;"> 
+                <input type="text" style="text-align: center;"> 
+            </div>
+            <div class="test1" style="position: absolute;left: 54.4%;cursor: pointer;">  
+                <p>搜索</p>
+           </div>
+        </div>
+    </div>
+        </div>
+        <div>
+            <div>
+                <table class="one" border="1">
+                    <tr>
+                        <td>性名：颜中康</td>
+                        <td>性别：男</td>
+                        <td>名族：汉</td> 
+                        <td rowspan="4">
+                            <img src="路飞.jpg" alt="" style="width: 200px;">
+                        </td>
+                    <tr>
+                        <td>出生日期：2000.1.1</td> 
+                        <td>政治面貌：共青团员</td>  
+                        <td>学历：专科</td>
+                    </tr>
+                    <tr>
+                        <td>专业：云计算技术与应用</td>
+                        <td>毕业学校：重庆工程职业技术学院</td>
+                        <td>邮编：12345</td>
+                    </tr>
+                    <tr>
+                        <td>爱好：写代码</td>
+                        <td>电话号码：<a href="tel:13996667802">13996667802</a></td>
+                        <td>邮件：<a href="mailto:852154358@qq.com?SubjectS=Hello%20again" target="_top">
+                            852154358@qq.com</a></td>
+                    </tr>
+                    <tr class="">
+                        <th height="160" bgcolor="#FFFFFF" colspan="1">个人特长:</th>
+                        <td colspan="3">
+                            <ul style="list-style: square">
+                                <li>熟悉Linux常用命令</li>
+                                <li>Java面向对象编程思想</li>
+                                <li>虚拟化桌面搭建</li>
+                                <li>web前端开发</li>
+                            </ul>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <th height="160" bgcolor="#FFFFFF">自我评价:</th>
+                        <td colspan="3">
+                            <ul style="list-style: square">
+                                <li>Good</li>
+                                <li>Great</li>
+                                <li>Amaze</li>
+                                <li>Unbelievable</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </table>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
